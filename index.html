@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atividade de Questões Objetivas</title>
+<style>
+    body {
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        letter-spacing: 0.8px;
+        background-color: black;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    #quiz {
+        top: 30px;
+        bottom: 50px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        align-content: center;
+        justify-content: center;
+        height: auto;
+        width: 700px;
+        /* height: 100vh; */
+
+        background: linear-gradient(217deg, rgba(78, 245, 120, 0.7), rgba(255,0,0,0)),
+              linear-gradient(127deg, rgba(55,200,200,.8), rgba(142, 223, 223, 0)),
+              linear-gradient(336deg, rgba(152, 251, 139, 0.9), rgba(0,0,255,0));
+        border-radius: 7px;
+        padding: 10px 40px;
+        box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+
+    }
+
+    .question {
+        margin-top: 20px;
+        margin-bottom: 7px;
+    }
+
+    input {
+        width: 18px;
+        height: 18px;
+    }
+
+    button {
+        margin-top: 20px;
+        background-color: #1f66d8;
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        transition: all linear 100ms;
+        cursor: pointer;
+    }
+
+    button:hover {
+        transform: scale(0.99);
+        background-color: #0c52c2;
+    }
+</style>
+
+</head>
+<body>
+<div id="quiz">
+    <h3>ATIVIDADE DE INFORMÁTICA</h3>
+    <div class="question">
+        <p>1. O que é informática?</p>
+        <input type="radio" name="q1" value="a"> a) É a ciência que estuda os movimentos.<br>
+        <input type="radio" name="q1" value="b"> b) É um campo da física que estuda a internet e os meios de comunicação.<br>
+        <input type="radio" name="q1" value="c"> c) É uma nova metodologia de aprender matemática.<br>
+        <input type="radio" name="q1" value="d"> d) É a ciência que estuda o tratamento automático e racional da informação.<br>
+    </div>
+    <div class="question">
+        <p>2. Qual o nome do primeiro computador eletrônico da história, criado em 1946?</p>
+        <input type="radio" name="q2" value="a"> a) MARK I<br>
+        <input type="radio" name="q2" value="b"> b) ANAC<br>
+        <input type="radio" name="q2" value="c"> c) ENIAC<br>
+        <input type="radio" name="q2" value="d"> d) EDVAC<br>
+    </div>
+    <div class="question">
+        <p>3. O que significa a sigla ENIAC?</p>
+        <input type="radio" name="q3" value="a"> a) Computador e Integrador Numérico Eletrônico.<br>
+        <input type="radio" name="q3" value="b"> b) Calculadora e Integradora Numérica Eletrônica.<br>
+        <input type="radio" name="q3" value="c"> c) Copiadora Elétrica e Integradora Numérica.<br>
+        <input type="radio" name="q3" value="d"> d) Calculadora Inteligente Elétrica e Numérica.<br>
+    </div>
+    <div class="question">
+        <p>4. A 4ª Geração de Computadores (1971-1990) caracteriza o</p>
+        <input type="radio" name="q4" value="a"> a) uso dos diodos e transistores.<br>
+        <input type="radio" name="q4" value="b"> b) uso do microprocessador.<br>
+        <input type="radio" name="q4" value="c"> c) uso de circuitos integrados.<br>
+        <input type="radio" name="q4" value="d"> d) uso da inteligência artificial.<br>
+    </div>
+    <div class="question">
+        <p>5. O que é Hardware?</p>
+        <input type="radio" name="q5" value="a"> a) É a parte lógica do computador, ou seja, os programas.<br>
+        <input type="radio" name="q5" value="b"> b) São os componentes físicos do computador, como a placa-mãe, memória.<br>
+        <input type="radio" name="q5" value="c"> c) É parte humana, ou seja, os usuários que usam o computador.<br>
+        <input type="radio" name="q5" value="d"> d) É o sistema operacional do computador.<br>
+    </div>
+    <div class="question">
+        <p>6. Marque a opção que apresenta apenas nomes de softwares:</p>
+        <input type="radio" name="q6" value="a"> a) Pen drive, Microsoft Excel, Bloco de Notas.<br>
+        <input type="radio" name="q6" value="b"> b) Internet, Wordpad, memória.<br>
+        <input type="radio" name="q6" value="c"> c) Google Chrome, Photoshop, Microsoft Word.<br>
+        <input type="radio" name="q6" value="d"> d) Processador, Windows, Avast.<br>
+    </div>
+    <div class="question">
+        <p>7. Assinale a opção que apresenta apenas nomes de hardwares:</p>
+        <input type="radio" name="q7" value="a"> a) Pen drive, Gravadora de CD, Wordpad.<br>
+        <input type="radio" name="q7" value="b"> b) Corel Draw, Paint, memória.<br>
+        <input type="radio" name="q7" value="c"> c) Processador, Memória, Microsoft Word.<br>
+        <input type="radio" name="q7" value="d"> d) HD, Placa-mãe, Placa de vídeo.<br>
+    </div>
+    <div class="question">
+        <p>8. Assinale a opção que possui apenas dispositivos de entrada de dados.</p>
+        <input type="radio" name="q8" value="a"> a) Monitor touchScreen, pen drive, impressora multifuncional.<br>
+        <input type="radio" name="q8" value="b"> b) Microfone, scanner, mouse.<br>
+        <input type="radio" name="q8" value="c"> c) Roteador, cartão SD, caixa de som.<br>
+        <input type="radio" name="q8" value="d"> d) Disco rígido, impressora multifuncional, webcam.<br>
+    </div>
+    <div class="question">
+        <p>9. Marque a opção que contém somente dispositivos de saída de dados.</p>
+        <input type="radio" name="q9" value="a"> a) Caixas de som, datashow, monitor.<br>
+        <input type="radio" name="q9" value="b"> b) Microfone, monitor touchScreen, scanner.<br>
+        <input type="radio" name="q9" value="c"> c) Teclado, mouse, monitor.<br>
+        <input type="radio" name="q9" value="d"> d) Pendrive, monitor, caixa de som.<br>
+    </div>
+    <div class="question">
+        <p>10. Assinale a opção que contém apenas nomes de sistemas operacionais.</p>
+        <input type="radio" name="q10" value="a"> a) Linux, Windows, Python, OSN-UX.<br>
+        <input type="radio" name="q10" value="b"> b) Android, PHP, Windows, Único.<br>
+        <input type="radio" name="q10" value="c"> c) Linux, Windows, Unix, Mac-OS.<br>
+        <input type="radio" name="q10" value="d"> d) Mac-X, Linus, Window XP, Javascript<br>
+    </div>
+    <div class="question">
+        <p>11. Ao clicar com o botão direito do mouse na área de trabalho do Windows 10, por exemplo, e depois clicar em Novo, e em seguida clicar em Pasta. O que essa ação vai fazer?</p>
+        <input type="radio" name="q11" value="a"> a) Criar um arquivo.<br>
+        <input type="radio" name="q11" value="b"> b) Restaurar uma pasta.<br>
+        <input type="radio" name="q11" value="c"> c) Criar uma pasta.<br>
+        <input type="radio" name="q11" value="d"> d) Renomear uma pasta.<br>
+    </div>
+    <div class="question">
+        <p>12. No Windows 10, a Lixeira é o local para onde vai os arquivos</p>
+        <input type="radio" name="q12" value="a"> a) Recuperados<br>
+        <input type="radio" name="q12" value="b"> b) Excluidos<br>
+        <input type="radio" name="q12" value="c"> c) Copiados<br>
+        <input type="radio" name="q12" value="d"> d) Impressos<br>
+    </div>
+    <div class="question">
+        <p>13. Como faz para recuperar um arquivo da Lixeira no Windows 10?</p>
+        <input type="radio" name="q13" value="a"> a) Clicar com o botão direito na lixeira e escolher restaurar.<br>
+        <input type="radio" name="q13" value="b"> b) Abrir a lixeira e clicar com o botão direito no arquivo e escolher excluir.<br>
+        <input type="radio" name="q13" value="c"> c) Abrir a lixeira e clicar com o botão direito no arquivo e escolher salvar.<br>
+        <input type="radio" name="q13" value="d"> d) Abrir a lixeira e clicar com o botão direito no arquivo e escolher restaurar.<br>
+    </div>
+    <div class="question">
+        <p>14. Quais os dois sistemas operacionais que a empresa Apple desenvolveu?</p>
+        <input type="radio" name="q14" value="a"> a) Linux e Windows<br>
+        <input type="radio" name="q14" value="b"> b) Linux e Android<br>
+        <input type="radio" name="q14" value="c"> c) Mac-OS e iOS<br>
+        <input type="radio" name="q14" value="d"> d) Windows e Mac-OS<br>
+    </div>
+    <div class="question">
+        <p>15. Marque os dois programas que são planilhas eletrônica.</p>
+        <input type="radio" name="q15" value="a"> a) Excel e Calc<br>
+        <input type="radio" name="q15" value="b"> b) Word e Writer<br>
+        <input type="radio" name="q15" value="c"> c) Power Point e Impress<br>
+        <input type="radio" name="q15" value="d"> d) Access e Base<br>
+    </div>
+
+    <!-- Adicione mais questões semelhantes aqui -->
+
+    <button onclick="submitQuiz()">Enviar Respostas</button>
+</div>
+
+<script>
+    function submitQuiz() {
+        let correctAnswers = 0;
+
+        // Verifica a resposta da questão 1
+        if (document.querySelector('input[name="q1"]:checked').value === "d") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 2
+        if (document.querySelector('input[name="q2"]:checked').value === "c") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 3
+        if (document.querySelector('input[name="q3"]:checked').value === "a") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 4
+        if (document.querySelector('input[name="q4"]:checked').value === "b") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 5        
+        if (document.querySelector('input[name="q5"]:checked').value === "b") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 6
+        if (document.querySelector('input[name="q6"]:checked').value === "c") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 7
+        if (document.querySelector('input[name="q7"]:checked').value === "d") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 8
+        if (document.querySelector('input[name="q8"]:checked').value === "b") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 9
+        if (document.querySelector('input[name="q9"]:checked').value === "a") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 10
+        if (document.querySelector('input[name="q10"]:checked').value === "c") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 11
+        if (document.querySelector('input[name="q11"]:checked').value === "c") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 12
+        if (document.querySelector('input[name="q12"]:checked').value === "b") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 13
+        if (document.querySelector('input[name="q13"]:checked').value === "d") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 14
+        if (document.querySelector('input[name="q14"]:checked').value === "c") {
+            correctAnswers++;
+        }
+        // Verifica a resposta da questão 15
+        if (document.querySelector('input[name="q15"]:checked').value === "a") {
+            correctAnswers++;
+        }
+
+        // Adicione mais verificações para as outras questões semelhantes aqui
+
+        // Mostra as respostas corretas e a quantidade de acertos
+        alert("GABARITO: As corretas são: \n1. d) \n2. c) \n3. a) \n4. b) \n5. b) \n6. c) \n7. d) \n8. b) \n9. a) \n10. c) \n11. c) \n12. b) \n13. d) \n14. c) \n15. a) \n\nVocê acertou " + correctAnswers + " de 15 questões.");
+    }
+</script>
+</body>
+</html>
